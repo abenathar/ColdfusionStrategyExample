@@ -5,9 +5,6 @@ Data     :  05 de Dezembro de 2015
 ************************************************************************/
 component output="false" serializable="false"{
 
-  public string function display() {
-
-  }
   public string function workingProgrammingLanguage(){
     return VARIABLES.iProgrammingLanguage.workLanguage();
   }
